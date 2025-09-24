@@ -20,10 +20,10 @@ By completing this project, you will:
 Frameworks_Assignment/
 │── data/
 │ └── metadata.csv # Dataset (sampled from CORD-19 metadata)
-│── notebooks/
-│ └── analysis.ipynb # Jupyter notebook for exploration and analysis
-│── app/
-│ └── streamlit_app.py # Streamlit web application
+│
+│── analysis.ipynb # Jupyter notebook for exploration and analysis
+│
+│── streamlit_app.py # Streamlit web application
 │── requirements.txt # Project dependencies
 │── README.md # Documentation
 
@@ -81,5 +81,6 @@ matplotlib
 seaborn
 
 streamlit
+
 
 wordcloud (optional, for text analysis)
