@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+*.egg-info/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# Large data or compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.gz
+
+# Kaggle metadata and unnecessary outputs
+*.json
+*.csv
+!data/metadata.csv   # keep only your working dataset
